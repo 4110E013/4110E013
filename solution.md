@@ -37,11 +37,28 @@
    -SSH最常見的用途是遠端登入系統，人們通常利用SSH來傳輸命令列介面和遠端執行命令
    -SSH使用頻率最高的場合是類Unix系統，但是Windows作業系統也能有限度地使用SSh
 - ftp vs sftp
-
-
+ - ftp
+   - 檔案傳輸協定（英語：File Transfer Protocol，FTP)
+   - 是一個用於在電腦網路上在客戶端和伺服器之間進行檔案傳輸的應用層協定。
+   - 檔案傳送（file transfer）和檔案存取（file access）之間的區別在於：前者由FTP提供，後者由如NFS等應用系統提供
+ - sftp
+   -SSH檔案傳輸協定（英語：SSH File Transfer Protocol，也稱Secret File Transfer Protocol，中文：安全檔案傳送協定，英文：Secure FTP或SFTP）是一數據流連線
+   -提供檔案存取、傳輸和管理功能的網路傳輸協定。由網際網路工程任務組（IETF）設計，
+   -透過SSH 2.0 的擴充提供安全檔案傳輸能力，但也能夠被其他協定使用。
 - smtp, pop3
+ - smtp
+   - 簡單郵遞傳送協定（英語：Simple Mail Transfer Protocol，SMTP）可用在傳送和接收電子郵件的資訊，但SMTP通常用作傳送電子郵件資訊，而不是接收。
+   - SMTP是一個相對簡單的基於文字的協定。可以透過協定，指定了一條訊息傳送至一個或多個接收者，然後訊息文字會被傳輸
+   - 可以簡單地通過telnet程式來測試一個SMTP伺服器。SMTP主要使用TCP埠25。為一個給定的域名決定一個SMTP伺服器，需要使用DNS的MX記錄。
+ - pop3
+   -郵局協議（英語：Post Office Protocol，POP）是TCP/IP協定族中的一員，
+   -此協定主要用於支援使用客戶端遠端管理在伺服器上的電子郵件
+   -POP支援離線郵件處理
 - SNMP
-
+ - SNMP
+   - 簡單網路管理協定（SNMP，Simple Network Management Protocol）構成了網際網路工程工作小組（IETF，Internet Engineering Task Force）定義的Internet協定族的一部分
+   - 該協定能夠支援網路管理系統，用以監測連接到網路上的裝置是否有任何引起管理上關注的情況
+   - 由一組網路管理的標準組成，包含一個應用層協定（application layer protocol）、資料庫模式（database schema），和一組資料物件。
 ## 簡述底下傳輸層協定(英文全名與簡單功能說明):TCP vs UDP
 - TCP
   - reliable(可靠的) vs unreliable(不可靠的)
